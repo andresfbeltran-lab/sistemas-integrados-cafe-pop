@@ -11,7 +11,7 @@ window.GLOSSARY = [
   },
   {
     "term": "COPASST",
-    "definition": "Comité Paritario de Seguridad y Salud en el Trabajo. Espacio de participación de empleador y trabajadores en asuntos de SST.",
+    "definition": "Comité Paritario de Seguridad y Salud en el Trabajo. Espacio de participación del empleador y de los trabajadores en asuntos de SST.",
     "category": "Siglas"
   },
   {

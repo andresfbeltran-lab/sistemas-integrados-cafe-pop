@@ -3,9 +3,9 @@
 window.CASE_OPTIONS = [
  {question:'¿Cómo abordarías el pedido extraordinario?', options:[
   {label:'Acelerar con los recursos disponibles',feedback:'Esta alternativa mantiene el origen de la crisis descrita: aumentar la exigencia sin evaluar capacidad, mantenimiento y condiciones de trabajo. La presión comercial se traslada a todas las dimensiones HSEQ.'},
-  {label:'Evaluar capacidad y renegociar condiciones',feedback:'Evaluar los riesgos y recursos permite decidir qué volumen y plazo puede asumir la planta. El trabajo propone acuerdos comerciales compatibles con la Capacidad Instalada Segura.'}]},
+  {label:'Evaluar capacidad y renegociar condiciones',feedback:'Evaluar los riesgos y recursos permite decidir qué volumen puede producir la planta y en qué plazo. El trabajo propone acuerdos comerciales compatibles con la Capacidad Instalada Segura.'}]},
  {question:'¿Qué harías antes de liberar los lotes?', options:[
-  {label:'Usar la inspección visual como criterio suficiente',feedback:'El aspecto visual no confirma todos los requisitos. En el caso, confundir inspección con conformidad permite omitir humedad y curva de tostión, dejando la liberación sin evidencia suficiente.'},
+  {label:'Usar la inspección visual como criterio suficiente',feedback:'El aspecto visual no confirma todos los requisitos. En el caso, confundir inspección con conformidad permite omitir la verificación de la humedad y de la curva de tostión, dejando la liberación sin evidencia suficiente.'},
   {label:'Retener y verificar con evidencia',feedback:'La retención del producto presuntamente no conforme permite confirmar su condición, documentar su disposición y coordinar la comunicación al cliente. La decisión se apoya en requisitos y trazabilidad.'}]},
  {question:'¿Cómo responderías al aumento de velocidad?', options:[
   {label:'Mantener la guarda retirada y pedir más atención',feedback:'Pedir atención no restablece la protección física ni elimina la fatiga. La combinación de mecanismo accesible y jornadas prolongadas conserva la exposición que describe el trabajo.'},

@@ -1,4 +1,4 @@
-# Sistemas Integrados de Gestión · Versión final 3.0
+# Sistemas Integrados de Gestión · Versión final 3.2
 
 Marco teórico de las cuatro normas ISO y aplicación al caso Café Pop.
 
@@ -12,7 +12,7 @@ HTML, CSS y JavaScript sin dependencias. No requiere instalación, compilación 
 
 ## Estructura
 
-- `index.html`: página principal, cuatro capítulos teóricos ampliados, índice y tabla comparativa.
+- `index.html`: página principal, cuatro capítulos teóricos ampliados, índice, tabla comparativa y seis videos de aprendizaje en la sección «Videos».
 - `styles.css`: diseño, variables de color y adaptación móvil.
 - `data.js`: contenido de normas, SIG, PHVA, caso, controles y referencias.
 - `glossary.js`: 179 entradas del glosario suministrado.
