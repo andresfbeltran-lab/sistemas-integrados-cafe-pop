@@ -44,3 +44,5 @@ El avance de estudio utiliza localStorage (clave cafepop-reviewed-v1), con alter
 ## Lectura compacta e interacción
 
 Cuatro capítulos teóricos desplegables, botón de expansión conjunta, controles y bibliografía bajo demanda, y glosario con seis entradas iniciales. El caso ofrece dos alternativas en cada momento, análisis inmediato y propuesta integrada. Las selecciones del caso duran la sesión; los controles revisados mantienen su persistencia local.
+
+Las seis fotografías editoriales y sus créditos están integrados en las tarjetas ISO, el caso y su solución. Sube también la carpeta assets/fotos a GitHub Pages.

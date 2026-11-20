@@ -13,7 +13,13 @@
   if (Array.isArray(saved)) state.reviewed = new Set(saved.filter(id => data.risks.some(r => r.id === id)));
  } catch { storageAvailable = false; }
 
- $('#norm-cards').innerHTML = data.norms.map((n,i) => `<article class="norm-card" style="--accent:${n.color}"><span class="norm-icon" aria-hidden="true">${n.icon}</span><p class="norm-code">${escape(n.code)}</p><h3>${escape(n.title)}</h3><p>${escape(n.description)}</p><a class="text-link norm-read" href="#teoria-${[9000,9001,45001,14001][i]}">Leer la explicación completa →</a><details><summary>Así funciona en Café Pop</summary><p>${escape(n.practice)}</p><p>${escape(n.extra)}</p><a class="source" href="#referencias">${escape(n.source)}</a></details></article>`).join('');
+ const normPhotos = [
+  '<figure class="foto-editorial"><img src="assets/fotos/iso-9000.webp" alt="Tres integrantes comparan granos de café en bandejas de muestras." width="1280" height="720" loading="lazy" decoding="async"><figcaption>Imagen creada con ChatGPT.</figcaption></figure>',
+  '<figure class="foto-editorial"><img src="assets/fotos/iso-9001.webp" alt="Una técnica vierte granos en un medidor de humedad." width="1280" height="720" loading="lazy" decoding="async"><figcaption>Imagen creada con ChatGPT.</figcaption></figure>',
+  '<figure class="foto-editorial"><img src="assets/fotos/iso-45001.webp" alt="Dos trabajadores revisan la guarda cerrada de la empacadora." width="1280" height="720" loading="lazy" decoding="async"><figcaption>Imagen creada con ChatGPT.</figcaption></figure>',
+  '<figure class="foto-editorial"><img src="assets/fotos/iso-14001.webp" alt="Una técnica toma una muestra de agua junto al tanque de tratamiento." width="1280" height="720" loading="lazy" decoding="async"><figcaption>Imagen creada con ChatGPT.</figcaption></figure>'
+ ];
+ $('#norm-cards').innerHTML = data.norms.map((n,i) => `<article class="norm-card" style="--accent:${n.color}">${normPhotos[i]}<p class="norm-code">${escape(n.code)}</p><h3>${escape(n.title)}</h3><p>${escape(n.description)}</p><a class="text-link norm-read" href="#teoria-${[9000,9001,45001,14001][i]}">Leer la explicación completa →</a><details><summary>Así funciona en Café Pop</summary><p>${escape(n.practice)}</p><p>${escape(n.extra)}</p><a class="source" href="#referencias">${escape(n.source)}</a></details></article>`).join('');
  $('#system-rows').innerHTML = data.system.map((s,i)=>`<div class="system-row"><span>0${i+1}</span><div><h3>${escape(s[0])}</h3><p>${escape(s[1])}</p></div><small>CAP.<br>${s[2]}</small></div>`).join('');
 
  // Pestañas accesibles: flechas, Inicio/Fin y selección automática.
